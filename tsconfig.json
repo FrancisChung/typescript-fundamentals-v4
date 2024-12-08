@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "ES2017",
-    "noEmit": true,
+    "noEmit": false,
     "strictNullChecks": true,
     "strict": true,
     "strictFunctionTypes": true,
@@ -12,5 +12,5 @@
     "lib": ["dom"],
     "moduleResolution": "classic",
   },
-  "include": ["examples/*/src", "challenges/*/src", "notes"]
+  "include": ["examples/*/src", "challenges/*/src"]
 }
