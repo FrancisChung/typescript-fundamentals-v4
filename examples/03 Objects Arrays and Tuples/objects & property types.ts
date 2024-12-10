@@ -24,7 +24,6 @@ function printCar( car : {
 }
 
 printCar(car)
-
 printCar({
         make : "Toytota",
         model : "Corolla",
@@ -33,3 +32,4 @@ printCar({
     }
 )
 
+const x : { [key: string]: number } = {}
