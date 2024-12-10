@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "ES2017",
+    "target": "es2020",
     "noEmit": false,
     "strictNullChecks": true,
     "strict": true,
@@ -10,7 +10,7 @@
     "noUnusedLocals": false,
     "noUnusedParameters": false,
     "lib": ["dom"],
-    "moduleResolution": "classic",
+    "moduleResolution": "node",
   },
   "include": ["examples/*/src", "challenges/*/src"]
 }
